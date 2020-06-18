@@ -1,0 +1,12 @@
+@import './section.scss';
+@import './course.scss';
+@import './gallery.scss';
+@import './review.scss';
+@import './form.scss';
+
+.sections {
+  background-image: url('../static/svg/seashore__mobile.svg'), linear-gradient(0deg,#209cff,#68e0cf 70%,#16b5f9);
+  background-repeat: no-repeat;
+  background-position: bottom, 0 0;
+  background-size: contain, contain;
+}

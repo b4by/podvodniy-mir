@@ -1,0 +1,35 @@
+
+
+// owl-nav
+
+.owl-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+// owl arrows
+
+.owl-prev, .owl-next {
+  width: 40px;
+  border-radius: 6px;
+  height: 40px;
+  background: #fff !important;
+}
+
+.owl-prev svg, .owl-next svg {
+  fill: #209cff;
+}
+
+.arrow-next {
+  transform: rotate(180deg);
+}
+
+.owl-prev.disabled svg, .owl-next.disabled svg {
+  fill: #e3e3e3;
+}
+
+// owl-dots
+
+.owl-dots {
+  display: none;
+}

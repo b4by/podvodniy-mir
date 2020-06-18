@@ -1,0 +1,37 @@
+// Шрифт
+
+@import 'fonts.scss';
+
+// Базовые стили
+
+@import 'base.scss';
+
+// Миксины медиа-выражений
+
+@import './mixin/media.scss';
+
+// Компоненты 
+
+@import 'components/countdown/countdown.scss';
+@import 'components/burger/burger.scss';
+@import 'components/modal/modal.scss';
+@import 'components/star/star.scss';
+@import 'components/fishes/fishes.scss';
+
+// Header, Main
+
+@import 'header.scss';
+@import 'main.scss';
+
+// Секции страницы
+
+@import './sections/sections.scss';
+
+// Кастомные стили для owl-carousel
+
+@import 'libs/owlCarouselCustom.scss';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

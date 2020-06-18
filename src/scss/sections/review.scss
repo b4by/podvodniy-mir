@@ -1,0 +1,37 @@
+.review {
+  &__item {
+    height: 492px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 28px;
+    margin: 15px 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+  }
+  &__user {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    &-pic {
+      margin-right: 16px;
+      display: inline-block;
+      vertical-align: middle;
+      width: 60px !important;
+      height: 60px !important;
+      border-radius: 50%;
+    }
+    &-name {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="дайвинг, Кипр">
+  <meta name="description" content="Дайвинг на Кипре, погружения с аквалангом – русский дайв-центр Подводный мир. Помимо увлекательного дайвинга мы также занимаемся обучением дайвингу по системе PADI, SDI и TDI.">
+  <title>Подводный мир</title>
+</head>
+<body>
+  <header class="header">
+    <div class="nav">
+      <div class="nav__logo" id="logo">
+        <img src="src/static/img/logo__mir.png" width="200" alt="logo">
+      </div>
+      <div class="countdown-small" id="countdown-small">
+        <div class="countdown-small__container">
+          <div class="countdown-small__box">
+            <div class="countdown-small__num" id="days">00</div>
+            <span class="countdown-small__text" id="day-name">дней</span>
+          </div>
+          <div class="countdown-small__box">
+            <div class="countdown-small__num" id="hours">00</div>
+          </div>
+          <div class="countdown-small__box">
+            <div class="countdown-small__num" id="minutes">00</div>
+          </div>
+          <div class="countdown-small__box">
+            <div class="countdown-small__num" id="seconds">00</div>
+          </div>
+        </div>
+      </div>
+      <div class="nav__burger burger">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </div>
+      </ul>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__video">
+      <div class="main__video-overlay"></div>
+      <video class="main__video-src" autoplay loop muted>
+        <source src="src/static/video/bg-video-4.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="container">
+      <h1 class="main__star star">
+        <span class="star__text star--first">скидка</span>
+        <span class="star__text star--second">-20%</span>
+        <span class="star__text star--third">курсы</br>дайвинга</span>
+      </h1>
+      <div class="countdown-big" id="countdown-big">
+        <div class="countdown-big__title">До конца акции осталось:</div>
+        <div class="countdown-big__container">
+          <div class="countdown-big__box">
+            <div class="countdown-big__num" id="days">00</div>
+            <div class="countdown-big__text" id="day-name">дней</div>
+          </div>
+          <div class="countdown-big__box">
+            <div class="countdown-big__num" id="hours">00</div>
+            <div class="countdown-big__text" id="hour-name">часов</div>
+          </div>
+          <div class="countdown-big__box">
+            <div class="countdown-big__num" id="minutes">00</div>
+            <div class="countdown-big__text" id="minute-name">минуты</div>
+          </div>
+          <div class="countdown-big__box">
+            <div class="countdown-big__num" id="seconds">00</div>
+            <div class="countdown-big__text" id="second-name">секунд</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="sections">
+    <section class="section course">
+      <div class="container">
+        <h2 class="section__title">
+          <span class="section__title-text">Курсы</span>
+        </h2>
+        <ul class="course__list">
+          <li class="course__item">
+            <div class="course__wrapper">
+              <div class='course__content'>
+                <h3 class="course__title">DISCOVER SCUBA DIVING</h3>
+                <div class="course__prices">
+                  <span class="course__prices-old">65</span>
+                  <span class="course__prices-new">52</span>
+                </div>
+                <span class="course__description">
+                  Сделай первое погружение!
+                </span>
+                <div class="course__footer">
+                  <button class="course__btn course__btn-order">Записаться!</button>
+                  <button class="course__btn course__btn-more" id="course-0">Подробнее о курсе</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="course__item">
+            <div class="course__wrapper">
+              <div class='course__content'>
+                <h3 class="course__title">PADI Scuba
+                  Diver</h3>
+                <div class="course__prices">
+                  <span class="course__prices-old">295</span>
+                  <span class="course__prices-new">236</span>
+                </div>
+                <span class="course__description">
+                  Курс для начинающих!
+                </span>
+                <div class="course__footer">
+                  <button class="course__btn course__btn-order">Записаться!</button>
+                  <button class="course__btn course__btn-more" id="course-1">Подробнее о курсе</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="course__item">
+            <div class="course__wrapper">
+              <div class='course__content'>
+                <h3 class="course__title">PADI Open Water Diver</h3>
+                <div class="course__prices">
+                  <span class="course__prices-old">475</span>
+                  <span class="course__prices-new">380</span>
+                </div>
+                <span class="course__description">
+                  Расширенный курс по лучшим местам.
+                </span>
+                <div class="course__footer">
+                  <button class="course__btn course__btn-order">Записаться!</button>
+                  <button class="course__btn course__btn-more" id="course-2">Подробнее о курсе</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="course__item">
+            <div class="course__wrapper">
+              <div class='course__content'>
+                <h3 class="course__title">PADI Enriched Air Diver (NITROX)</h3>
+                <div class="course__prices">
+                  <span class="course__prices-old">125</span>
+                  <span class="course__prices-new">99</span>
+                </div>
+                <span class="course__description">
+                  Повышение квалификации.
+                </span>
+                <div class="course__footer">
+                  <button class="course__btn course__btn-order">Записаться!</button>
+                  <button class="course__btn course__btn-more" id="course-3">Подробнее о курсе</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section gallery">
+      <div class="container">
+        <h2 class="section__title">
+          <span class="section__title-text">Галерея</span>
+        </h2>
+        <ul class="gallery__list owl-carousel">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__1.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__2.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__14.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__15.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__16.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__17.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__18.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__19.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__20.jpg" alt="gallery-img">
+          <img class="gallery__img owl-lazy" data-src="src/static/img/gallery/gallery__3.jpg" alt="gallery-img">
+       </ul>
+      </div>
+    </section>
+    <section class="section review">
+      <div class="container">
+        <h2 class="section__title">
+          <span class="section__title-text">Отзывы</span>
+        </h2>
+        <ul class="review__list owl-carousel">
+          <li class="review__item">
+            <div class="review__text">"Нырял с ними два года назад, поэтому был подписан в соц. сетях и увидел объявление о скидке и возможности пройти курс on-line. Почему бы и нет?! Курс простой, но без корочки, Nitrox, просто так, не дадут. "</div>
+            <div class="review__user">
+              <img class="review__user-pic" src="src/static/img/user_pic.png" alt="user_pic">
+              <div class="review__user-name">
+                <span class="review__user-name__text">Александр Головченко</span>
+              </div>
+            </div>
+          </li>
+          <li class="review__item">
+            <div class="review__text">«Виртуальный дайвинг» вещь, конечно, сомнительная))) но что касается теории и обучения, вот так дома, считаю, что это гораздо эффективнее, чем заниматься теорией на курорте. Проходил курс AOWD в Тайланде, и там, как понимаете, не до теории после погружений. </div>
+            <div class="review__user">
+              <img class="review__user-pic" src="src/static/img/user_pic.png" alt="user_pic">
+              <div class="review__user-name">
+                <span class="review__user-name__text">Равиль Мингазов</span>
+              </div>
+            </div>
+          </li>
+          <li class="review__item">
+            <div class="review__text">Отдельное спасибо хочу сказать Елене, за оперативность и качество обучения. Из-за того, что мы не ограничены по времени и нет этой курортной суеты, получил еще кучу полезной информации сверх того, что есть в самом курсе. Теперь осталось дождаться практической части курса и заветная карточка Найтрокс - в кармане!</div>
+            <div class="review__user">
+              <img class="review__user-pic" src="src/static/img/user_pic.png" alt="user_pic">
+              <div class="review__user-name">
+                <span class="review__user-name__text">Даниил Бравый</span>
+              </div>
+            </div>
+          </li>
+          <li class="review__item">
+            <div class="review__text">Елена и Роберт (инструктор Padi) подробно разбирают важные моменты в теории.
+              Кроме того, Елена помогла мне оперативно приобрести комплект материалов от Padi для курса ДМ.</div>
+            <div class="review__user">
+              <img class="review__user-pic" src="src/static/img/user_pic.png" alt="user_pic">
+              <div class="review__user-name">
+                <span class="review__user-name__text">Антон Клименко</span>
+              </div>
+            </div>
+          </li>
+          <li class="review__item">
+            <div class="review__text">Дистанционное обучение проходит комфортно. Все в группе 
+              очень увлечены дайвингом, делимся опытом. 
+              Теоретический online курс подходит к концу, и я надеюсь в этом 
+              году приехать на Кипр, чтобы пройти практику у ребята.
+              В целом, очень рад нашему знакомству и общению. Спасибо за курс.</div>
+            <div class="review__user">
+              <img class="review__user-pic" src="src/static/img/user_pic.png" alt="user_pic">
+              <div class="review__user-name">
+                <span class="review__user-name__text">Феликс Виталиев</span>
+              </div>
+            </div>
+          </li>
+          <li class="review__item">
+            <div class="review__text">На дайвшоу прибрел подарочный сертификат OWD Подводного мира для сына. Дистанционное обучение показало хороший результат, теоретическую часть знает на “отлично” и теперь можно поздравить сына с присвоением квалификации дистанционного диванного дайвера.</div>
+            <div class="review__user">
+              <img class="review__user-pic" src="src/static/img/user_pic.png" alt="user_pic">
+              <div class="review__user-name">
+                <span class="review__user-name__text">Виталий Васильев </span>
+              </div>
+            </div>
+          </li>
+          <li class="review__item">
+            <div class="review__text">В данный момент, когда моря и океаны отдыхают от присутствия человека, я могу наслаждаться online общением со своими друзьями и уже скоро коллегами из дайвцентра "Подводный мир" на Кипре в рамках прохождения теории курса PADI Divemaster</div>
+            <div class="review__user">
+              <img class="review__user-pic" src="src/static/img/user_pic.png" alt="user_pic">
+              <div class="review__user-name">
+                <span class="review__user-name__text">Алексей Монахов</span>
+                <span class="review__user-name__city">г. Москва</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section form">
+      <div class="fish" id="fish1"></div>
+      <div class="fish" id="fish2"></div>
+      <div class="container">
+        <h2 class="section__title">
+          <span class="section__title-text">Заявка</span>
+        </h2>
+        <form class="form">
+          <ul class="form__list">
+            <li class="form__item">
+              <input class="form__input form-control" type="text" name="name">
+              <label class="form__label" for="name">Имя</label>
+              <small class="hide">Error message</small>
+            </li>
+            <li class="form__item">
+              <input class="form__input form-control" type="text" name="email">
+              <label class="form__label" for="email">E-mail</label>
+              <small class="hide">Error message</small>
+            </li>
+            <li class="form__item">
+              <input class="form__input form-control" type="tel" name="phone">
+              <label class="form__label" for="phone">Телефон</label>
+              <small class="hide">Error message</small>
+            </li>
+            <li class="form__item" id="input-course">
+              <input class="form__input form-control" type="text" name="course">
+              <label class="form__label" for="course">Название курса</label>
+            </li>
+            <li class="form__item" id="input-utm_source">
+              <input class="form__input form-control" type="text" name="utm_source">
+              <label class="form__label" for="text">utm_source</label>
+            </li>
+            <li class="form__item" id="input-utm_medium">
+              <input class="form__input form-control" type="text" name="utm_medium">
+              <label class="form__label" for="utm_medium">utm_medium</label>
+            </li>
+            <li class="form__item" id="input-utm_content">
+              <input class="form__input form-control" type="text" name="utm_content">
+              <label class="form__label" for="utm_content">utm_content</label>
+            </li>
+            <li class="form__item" id="input-utm_term">
+              <input class="form__input form-control" type="text" name="utm_term">
+              <label class="form__label" for="utm_term">utm_term</label>
+            </li>
+            <li class="form__item" id="input-gclid">
+              <input class="form__input form-control" type="text" name="gclid">
+              <label class="form__label" for="gclid">gclid</label>
+            </li>
+            <li class="form__item">
+              <button type="submit" class="form__input form__input-submit js-submit-form" tabindex="0">Отправить заявку</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

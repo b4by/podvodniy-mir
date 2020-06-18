@@ -1,0 +1,21 @@
+.main {
+  position: relative;
+  overflow: hidden;
+  background-image: url('../static/svg/wave2.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 100px;
+  &__video, &__video-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &__video-src {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

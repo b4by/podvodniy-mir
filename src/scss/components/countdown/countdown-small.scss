@@ -1,0 +1,48 @@
+.countdown-small {
+  padding-left: 10px;
+  visibility: hidden;
+  opacity: 0;
+  position: relative;
+  width: 100%;
+  align-items: flex-end;
+  font-weight: 600;
+  transition: opacity .6s;
+  &__container {
+    display: flex;
+  }
+  &__box {
+    display: flex;
+    padding-right: 12px;
+  }
+  &__num {
+    position: relative;
+    font-size: 25px;
+    line-height: 1;
+    &::after {
+      content: ':';
+      position: absolute;
+      right: -9px;
+    }
+  }
+  &__text {
+    font-size: 18px;
+  }
+  &--active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.countdown-small__box:first-child > .countdown-small__num {
+  margin-right: 6px;
+}
+
+.countdown-small__box:first-child .countdown-small__num::after,
+.countdown-small__box:last-child .countdown-small__num::after {
+  display: none;
+}

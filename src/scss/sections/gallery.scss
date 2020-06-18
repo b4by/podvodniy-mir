@@ -1,0 +1,9 @@
+.gallery {
+  &__img {
+    margin: 1rem 0;
+    display: block;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+}
